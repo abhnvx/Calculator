@@ -17,24 +17,24 @@ print("5.Power[a^b]")
 op = int(input("Enter operation [1-6]"))
 
 if op == 1:
-    result = add.add(a, b)
-    print("Sum is", res)
+    result = add(a,b)
+    print("Sum is :", result)
 
 elif op == 2:
-    result = Subtract.subtract(a, b)
-    print("Difference is", res)
+    result = subtract(a, b)
+    print("Difference is ", result)
 
 elif op == 3:
-    result = multiply.multiply(a, b)
-    print("Answer is", res)
+    result = multiply(a, b)
+    print("Answer is ", result)
 
 elif op == 4:
-    result = divide.divide(a, b)
-    print("Answer is", res)
+    result = divide(a, b)
+    print("Answer is ", result)
 
 elif op == 5:
-    result = power.power(a, b)
-    print("Answer is", res)
+    result = power(a, b)
+    print("Answer is ", result)
     
 
 
