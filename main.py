@@ -14,7 +14,7 @@ print("3.Multiply[a*b]")
 print("4.Divide[a/b]")
 print("5.Power[a^b]")
 
-op = int(input("Enter operation [1-6]"))
+op = int(input("Enter operation [1-5]"))
 
 if op == 1:
     result = add(a,b)
